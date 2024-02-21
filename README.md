@@ -11,9 +11,10 @@ This project focuses on creating a semantic search system tailored for policy do
 2. Search Layer:   Design three diverse queries reflecting potential user questions in policy documents.   Implement vector database searches against ChromaDB, incorporating a cache mechanism.   Enhance search results with a re-ranking block using cross-encoding models from HuggingFace.
 ![image](https://github.com/mswornavidhya/HelpMateAI_RAG_GenAI/assets/834756/33012414-75dd-45cd-9dcd-57a7dbfc4d8d)
 
-   
-3. Generation Layer:   Design an exhaustive and instructive prompt for the Language Model (LM) to ensure coherent answer generation.Provide a few-shot example in the prompt to improve LM output.
+Rerank after cross encoding provided
 ![image](https://github.com/mswornavidhya/HelpMateAI_RAG_GenAI/assets/834756/5b7c42ba-71dc-4511-b3e7-9a8b4e7da82d)
+
+3. Generation Layer:   Design an exhaustive and instructive prompt for the Language Model (LM) to ensure coherent answer generation.Provide a few-shot example in the prompt to improve LM output.
 
    
 **Performance Evaluation:**
